@@ -12,10 +12,11 @@
  <event type="death" name="DeathCounter" script="kdcounter.lua" />
 <event type="kill" name="KillCounter" script="kdcounter.lua" />
 
-	<!-- Skill Points -->
+	<event type="advance" name="recompensavintek" event="script" value="recompensa.lua"/>
+	<!-- Skill Points --><!--
 	<event type="modalwindow" name="skillPoints_modal" script="sp.lua"/>
     <event type="advance" name="skillPoints_advance" script="sp.lua"/>
-    <event type="login" name="skillPoints_register" script="sp.lua"/>
+    <event type="login" name="skillPoints_register" script="sp.lua"/> -->
 
     <!-- WARZONE BOSS -->
   <event type="death" name="WarzoneBossDeath" script="warzone157.lua" />
