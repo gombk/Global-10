@@ -8,6 +8,7 @@ killsToBlackSkull = 10
 pzLocked = 60000
 removeChargesFromRunes = true
 removeWeaponAmmunition = true
+removeWeaponCharges = true
 timeToDecreaseFrags = 4 * 60 * 60 * 1000
 whiteSkullTime = 7 * 60 * 1000
 stairJumpExhaustion = 500
