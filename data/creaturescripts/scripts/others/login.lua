@@ -159,10 +159,8 @@ elseif Game.getStorageValue(GlobalStorage.FuryGates, (9711)) == 2 then -- for ab
       end
      
    
-    player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, '[TIBIA COINS] For purchases above 20 BRL receive Double Coins.')
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, '[Bugs Fixed] !')
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, '[BONUS EXP] Command for check !exp.')
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, '[GUILD LEADER COMMAND] Will change all outfits from members !outfit.')
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, '[BONUS EXP] Comando para checar experienca !exp.')
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, '[GUILD LEADER COMMAND] Troca todos os outfits dos membros da guild !outfit.')
    
     -- Events
     for i = 1, #events do
