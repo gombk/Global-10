@@ -12,7 +12,6 @@
  <event type="death" name="DeathCounter" script="kdcounter.lua" />
 <event type="kill" name="KillCounter" script="kdcounter.lua" />
 
-	<event type="advance" name="recompensa" event="script" value="recompensa.lua"/>
 	<!-- Skill Points --><!--
 	<event type="modalwindow" name="skillPoints_modal" script="sp.lua"/>
     <event type="advance" name="skillPoints_advance" script="sp.lua"/>
