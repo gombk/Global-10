@@ -6,7 +6,8 @@ protectionLevel = 100
 killsToRedSkull = 5
 killsToBlackSkull = 10
 pzLocked = 60000
-removeChargesFromRunes = false
+removeChargesFromRunes = true
+removeWeaponAmmunition = true
 timeToDecreaseFrags = 4 * 60 * 60 * 1000
 whiteSkullTime = 7 * 60 * 1000
 stairJumpExhaustion = 500
@@ -22,16 +23,16 @@ storeCoinsPacketSize = 5200
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "127.0.0.1"
+ip = "puma.servegame.com"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = "2100"
-motd = "Bem vindo ao melhor global_fogotten!"
+motd = "Bem vindo ao Puma Server!"
 onePlayerOnlinePerAccount = true
 allowClones = false
-serverName = "forgotten"
+serverName = "Puma"
 statusTimeout = 5000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 1000
@@ -67,7 +68,7 @@ maxMarketOffersAtATimePerPlayer = 100
 -- MySQL
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
-mysqlPass = ""
+mysqlPass = "j3ld3V1ado!"
 mysqlDatabase = "otserv"
 mysqlPort = "3306"
 passwordType = "sha1"
